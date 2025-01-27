@@ -1,0 +1,71 @@
+body {
+    background-color: #000;
+}
+
+.sidebar {
+    position:fixed;  /* fixo na pagina*/
+    top:0;   /* ficar grudado no topo*/
+    left:0; /*left 0 para ficar sempre na esquerda*/
+    bottom:0;   /*ficar grudado lá embaixo*/
+    padding:12px;   /*espaçamento*/
+    width:300px 
+}
+
+.sidebar_navigation {
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.sidebar_navigation .logo {
+    background: #121212;
+    display: flex;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+    max-width: 30px;
+}
+
+.sidebar_navigation .logo img {
+    width: 80px;
+}
+
+.sidebar nav ul {
+    margin-top: 20px;
+    padding: 0 20px 10px 20px;
+
+}
+
+.sidebar ul li {
+    padding: 10px 0;
+
+}
+
+.sidebar nav ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif
+}
+
+.library {
+    margin-top: 20px; /* Espaçamento para separar dos outros itens */
+    border: 2px dashed #f4f7f5; /* Tipo, espessura e cor da borda */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 10px; /* Espaçamento interno para a borda não "grudar" no conteúdo */
+    text-align: center; /* Centraliza o conteúdo dentro da borda */
+    background-color: #121212; /* Adiciona um fundo, se necessário */
+    transition: all 0.3s ease; /* Transição suave para hover */
+}
+
+
+.library a {
+    color: white;
+
+}
+
+.library {
+    margin-top: 20px;
+    text-align: center;
+    transition: all0.3s ease;
+}
